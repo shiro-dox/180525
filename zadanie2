@@ -1,0 +1,26 @@
+import pyautogui as p
+import time as t
+import keyboard
+
+vlasnost=input("введите влажность на данный момент: ")
+gradysi=input("введите градусы по цельсию на данный момент")
+
+if (vlasnost >= str(60) or vlasnost <= str(30)) and (gradysi >= str(30) or gradysi <= str(10)):
+    print(" влажность тревога!!")
+    p.press('win')
+    t.sleep(1)
+    p.write("chrome")
+    t.sleep(1)
+    p.press('enter')
+    t.sleep(1)
+    p.moveTo(570, 64)
+    t.sleep(1)
+    p.click()
+    t.sleep(1)
+    p.write("xnj ltkfnm ghb yfheitybb eckjdbq d jhty;thtt")
+    t.sleep(1)
+    p.press("enter")
+    t.sleep(1)
+    
+
+
