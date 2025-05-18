@@ -1,0 +1,8 @@
+koleso1=input("сколько лет 1 колесу: ")
+koleso2=input("сколько лет 2 колесу: ")
+koleso3=input("сколько лет 3 колесу: ")
+koleso4=input("сколько лет 4 колесу: ")
+if koleso1 >= str(6) or koleso2 >= str(6) or koleso3 >= str(6) or koleso4 >= str(6) :
+    print("замени свои колеса от греха подальше")
+if koleso1 <= str(6) or koleso2 <= str(6) or koleso3 <= str(6) or koleso4 <= str(6) :
+    print("все намана ехала")
